@@ -52,7 +52,6 @@ export function AuthProvider({ children }) {
                 {
                     console.log('Found User Data');
                     firebasaData = docSnap.data();
-                    console.log(firebasaData);
                 }
                 setUserDataObj(firebasaData);
             } catch (error) {
